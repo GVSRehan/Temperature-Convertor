@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <form id="locationForm">
+            <input type="text" id="locationInput" placeholder="Enter location (e.g., India, Andhra Pradesh, Guntur)" required>
+            <button type="submit">Fetch Temperature</button>
+        </form>
+        <div class="input-group">
+            <input type="number" id="inputTemperature" placeholder="Temperature (°C)" readonly>
+            <select id="inputUnit">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select>
+        </div>
+        <div class="output-group">
+            <select id="outputUnit">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select>
+            <input type="text" id="outputTemperature" readonly>
+        </div>
+        <button onclick="convertTemperature()">Convert</button>
+        <div id="weatherSymbol"></div>
+        <div id="animationContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

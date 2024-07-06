@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background1.jpeg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the entire body */
+}
+
+.container {
+    background: orange;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white; /* Text color for container */
+}
+
+h1 {
+    color: white;
+}
+
+.input-group, .output-group {
+    margin: 10px 0;
+    position: relative;
+}
+
+input, select, #outputTemperature {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: white; /* Sets background of inputs and output to white */
+    color: orange; /* Text color for inputs and output */
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: white; /* Sets background of buttons to white */
+    color: orange; /* Text color for buttons */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.temp-symbol {
+    position: absolute;
+    right: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: white;
+}
+
+#animationContainer {
+    margin: 20px auto;
+    font-size: 1.5em;
+    color: white;
+}
+
+#weatherSymbol {
+    font-size: 2em;
+    margin: 10px 0;
+}

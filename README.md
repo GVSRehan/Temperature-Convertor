@@ -1,4 +1,6 @@
 Temperature Converter
+
+
 Implemented a temperature converter using HTML, CSS, and JavaScript that fetches weather data online based on user location input. Utilized Geolocation APIs to obtain real-time temperature updates and styled the application for a user-friendly interface.
 
 Getting Started

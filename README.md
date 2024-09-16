@@ -21,3 +21,4 @@ Project Details
 This temperature converter uses the Geolocation API to get the user's location and fetches weather data from an online source. The application then displays real-time temperature updates based on the user's location.
 
 You can add this README to your GitHub repository to provide a clear and concise overview of your project and instructions for running it.
+Note: I have used Weather API Which is free for 15 days of trail period so while deploy with your own api key.
